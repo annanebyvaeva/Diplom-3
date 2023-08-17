@@ -47,7 +47,6 @@ public class TransitionTest {
         headerPage.clickPersonalAccount(driver);
         assertTrue(headerPage.isDisplayedMessage());
     }
-
     @Test
     @DisplayName("Проверка перехода по логотипу стеллар бургер")
     public void getIntoMainPageFromPersonalAccountWithLogoBurgerTest() {

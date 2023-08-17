@@ -50,7 +50,6 @@ public class LoginTest {
         loginPage.makeSignIn(driver, user.getEmail(), user.getPassword());
         assertTrue(mainPage.isHomePageVisible(driver));
     }
-
     @Test
     @DisplayName("Проверка входа по кнопке «Личный кабинет» на главной")
     public void signInWithPersonalAccountButtonTest() {
